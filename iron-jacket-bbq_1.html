@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iron Jacket BBQ | Texas-Style Brisket & BBQ in Mulvane, KS | Near Wichita</title>
+<meta name="description" content="Iron Jacket BBQ in Mulvane, KS smokes true Texas-style brisket, burnt ends & pulled pork over oak fire. 5.0 stars, 121 reviews. Open Saturdays 11am–7pm. BBQ catering for Wichita & Mulvane.">
+<meta name="keywords" content="BBQ Mulvane, BBQ near Wichita, BBQ catering Kansas, Texas brisket Kansas, Iron Jacket BBQ">
+<meta property="og:title" content="Iron Jacket BBQ — Bringing Texas Brisket to Kansas">
+<meta property="og:description" content="Oak-smoked Texas-style BBQ in Mulvane, KS. 5.0 stars from 121 reviews. Brisket, burnt ends, pulled pork, mac & cheese. Open Saturdays.">
+<meta property="og:type" content="restaurant.menu">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarbecueRestaurant",
+  "name": "Iron Jacket BBQ",
+  "image": "https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0672.jpeg",
+  "telephone": "+13167799419",
+  "priceRange": "$$",
+  "servesCuisine": "Barbecue",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "213 W Main St",
+    "addressLocality": "Mulvane",
+    "addressRegion": "KS",
+    "postalCode": "67110",
+    "addressCountry": "US"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "121"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "19:00" }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c1613;
+    --ink-2:#241c17;
+    --paper:#efe3cd;
+    --paper-2:#e6d7ba;
+    --ember:#c43e1c;
+    --ember-2:#e05a2b;
+    --rust:#7c3319;
+    --oak:#5a3a24;
+    --iron:#4b453d;
+    --gold:#d6a13f;
+    --cream:#f5ead6;
+    --line: rgba(28,22,19,0.14);
+    --line-lt: rgba(245,234,214,0.18);
+    --ease: cubic-bezier(.22,1,.36,1);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;background:var(--paper);}
+  html,body{overflow-x:hidden;}
+  ::selection{background:var(--ember);color:var(--cream);}
+  ::-webkit-scrollbar{width:10px;}
+  ::-webkit-scrollbar-track{background:var(--paper);}
+  ::-webkit-scrollbar-thumb{background:var(--gold);border-radius:6px;border:2px solid var(--paper);}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:'Libre Franklin', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:64px;max-width:100vw;position:relative;
+  }
+  body::after{
+    content:"";position:fixed;inset:0;pointer-events:none;z-index:999;opacity:.035;mix-blend-mode:multiply;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  h1,h2,h3{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:900;text-transform:uppercase;letter-spacing:0.01em;margin:0;line-height:0.95;
+  }
+  .eyebrow{font-family:'Barlow Semi Condensed', sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.16em;font-size:13px;color:var(--ember);}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 24px;}
+  section{position:relative;}
+
+  /* ---------- KICKER (numbered section label) ---------- */
+  .kicker{display:flex;align-items:center;gap:16px;margin-bottom:20px;}
+  .kicker-num{font-family:'Barlow Semi Condensed';font-weight:700;font-size:13px;letter-spacing:.1em;color:var(--ember);}
+  .kicker-rule{width:38px;height:2px;background:var(--ember);}
+  .kicker.on-dark .kicker-num,.kicker.on-dark .eyebrow{color:var(--ember-2);}
+
+  /* ---------- SEAR STAMP (signature element) ---------- */
+  .stamp{
+    display:inline-flex;flex-direction:column;align-items:center;justify-content:center;
+    width:132px;height:132px;border-radius:50%;
+    border:3px solid currentColor;position:relative;flex-shrink:0;
+    font-family:'Barlow Semi Condensed', sans-serif;color:var(--cream);background:transparent;
+  }
+  .stamp::before{content:"";position:absolute;inset:8px;border-radius:50%;border:1px solid currentColor;opacity:.55;}
+  .stamp .stars{font-size:15px;letter-spacing:2px;color:var(--gold);margin-bottom:2px;}
+  .stamp .num{font-family:'Big Shoulders Display';font-weight:900;font-size:34px;line-height:1;}
+  .stamp .lbl{font-size:8.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;margin-top:3px;line-height:1.5;text-align:center;}
+
+  /* ---------- BUTTONS ---------- */
+  .btn{
+    font-family:'Barlow Semi Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:14px;
+    padding:16px 26px;border-radius:2px;border:2px solid transparent;transition:transform .35s var(--ease), background .3s, border-color .3s, box-shadow .3s;
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn-primary{background:var(--ember);color:var(--cream);}
+  .btn-primary:hover{background:var(--ember-2);box-shadow:0 10px 26px -8px rgba(196,62,28,.55);}
+  .btn-outline{border-color:rgba(245,234,214,0.5);color:var(--cream);}
+  .btn-outline:hover{border-color:var(--cream);background:rgba(245,234,214,0.08);}
+  .arrow-link{display:inline-flex;align-items:center;gap:9px;font-family:'Barlow Semi Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:13px;position:relative;padding-bottom:4px;}
+  .arrow-link::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:currentColor;transform:scaleX(.3);transform-origin:left;transition:transform .4s var(--ease);opacity:.5;}
+  .arrow-link:hover::after{transform:scaleX(1);opacity:1;}
+  .arrow-link svg{width:13px;height:13px;transition:transform .35s var(--ease);}
+  .arrow-link:hover svg{transform:translateX(4px);}
+
+  /* ---------- HEADER ---------- */
+  header{position:fixed;top:0;left:0;right:0;z-index:40;background:transparent;transition:background .4s var(--ease), padding .4s var(--ease), border-color .4s var(--ease);border-bottom:1px solid transparent;}
+  header.scrolled{background:rgba(28,22,19,0.95);backdrop-filter:blur(8px);border-color:var(--line-lt);}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;max-width:1220px;margin:0 auto;transition:padding .4s var(--ease);}
+  header.scrolled .nav{padding:13px 24px;}
+  .brand{display:flex;align-items:center;gap:10px;color:var(--cream);}
+  .brand-mark{width:34px;height:34px;border-radius:50%;border:2px solid var(--ember-2);display:flex;align-items:center;justify-content:center;font-family:'Big Shoulders Display';font-weight:900;color:var(--ember-2);font-size:15px;}
+  .brand-name{font-family:'Big Shoulders Display';font-weight:800;font-size:20px;letter-spacing:.02em;text-transform:uppercase;}
+  .navlinks{display:none;gap:28px;font-family:'Barlow Semi Condensed';font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:14px;color:var(--cream);}
+  .navlinks a{position:relative;padding-bottom:5px;opacity:.85;transition:opacity .25s;}
+  .navlinks a::after{content:"";position:absolute;left:50%;right:50%;bottom:0;height:1px;background:var(--ember-2);transition:left .35s var(--ease), right .35s var(--ease);}
+  .navlinks a:hover{opacity:1;}
+  .navlinks a:hover::after{left:0;right:0;}
+  .nav-cta{display:none;background:var(--ember);color:var(--cream);font-family:'Barlow Semi Condensed';font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:13px;padding:10px 18px;border-radius:2px;transition:background .25s;}
+  .nav-cta:hover{background:var(--ember-2);}
+  @media(min-width:920px){.navlinks{display:flex;}.nav-cta{display:inline-block;}}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;min-height:94vh;display:flex;align-items:flex-end;background:#0f0b09;overflow:hidden;}
+  .hero-bg{position:absolute;inset:0;}
+  .hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.62;filter:saturate(1.05) contrast(1.05);
+    animation:kenburns 22s ease-in-out infinite alternate;transform-origin:60% 40%;}
+  @keyframes kenburns{from{transform:scale(1);}to{transform:scale(1.12);}}
+  .hero-bg::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(0deg, #100b09 6%, rgba(16,11,9,0.55) 46%, rgba(16,11,9,0.15) 70%),
+               linear-gradient(90deg, rgba(16,11,9,0.75) 0%, rgba(16,11,9,0.1) 55%);
+  }
+  .embers{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1;}
+  .ember-particle{position:absolute;bottom:-10px;width:5px;height:5px;border-radius:50%;background:var(--ember-2);box-shadow:0 0 8px 2px rgba(224,90,43,.7);opacity:0;animation:rise 9s linear infinite;}
+  @keyframes rise{
+    0%{transform:translateY(0) translateX(0);opacity:0;}
+    8%{opacity:.9;}
+    100%{transform:translateY(-92vh) translateX(var(--drift,20px));opacity:0;}
+  }
+  .hero-inner{position:relative;z-index:2;padding:150px 24px 100px;max-width:1220px;margin:0 auto;width:100%;color:var(--cream);}
+  .hero-eyebrow{font-family:'Barlow Semi Condensed';font-weight:700;letter-spacing:.2em;text-transform:uppercase;font-size:13px;color:var(--ember-2);margin-bottom:18px;display:flex;align-items:center;gap:10px;}
+  .hero-eyebrow::before{content:"";width:34px;height:2px;background:var(--ember-2);display:inline-block;}
+  h1.hero-title{font-size:clamp(46px, 8.5vw, 104px);color:var(--cream);}
+  h1.hero-title em{font-style:normal;color:var(--ember-2);}
+  .hero-sub{font-family:'Libre Franklin';font-size:18px;line-height:1.5;max-width:520px;color:#e6d9c2;margin-top:22px;font-weight:400;}
+  .hero-row{display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin-top:40px;}
+  .btnrow{display:flex;flex-wrap:wrap;gap:14px;}
+  .hero-stamp{border-color:var(--cream);}
+
+  /* ---------- MARQUEE ---------- */
+  .marquee{background:var(--ink);border-top:1px solid var(--line-lt);border-bottom:1px solid var(--line-lt);overflow:hidden;padding:18px 0;}
+  .marquee-track{display:flex;white-space:nowrap;width:max-content;animation:marquee 32s linear infinite;}
+  .marquee-track span{font-family:'Barlow Semi Condensed';font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12.5px;color:#cbb999;padding:0 26px;display:inline-flex;align-items:center;gap:26px;}
+  .marquee-track span::after{content:"✦";color:var(--ember-2);}
+  @keyframes marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+  @media (prefers-reduced-motion: reduce){.marquee-track,.hero-bg img,.ember-particle{animation:none;}}
+
+  /* ---------- TRUST STRIP ---------- */
+  .trust{background:var(--ink);color:var(--cream);padding:20px 0;}
+  .trust .wrap{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;font-family:'Barlow Semi Condensed';text-transform:uppercase;letter-spacing:.1em;font-size:12px;font-weight:600;color:#cbb999;}
+  .trust span{white-space:nowrap;padding:0 28px;border-left:1px solid rgba(214,161,63,.25);}
+  .trust span:first-child{border-left:none;padding-left:0;}
+  .trust b{color:var(--gold);font-weight:700;}
+
+  /* ---------- SECTION HEADS ---------- */
+  .sec{padding:120px 0;}
+  .sec-head{max-width:640px;margin-bottom:60px;}
+  .sec-head h2{font-size:clamp(34px,5vw,58px);margin-top:10px;}
+  .sec-head p{font-size:16.5px;color:var(--iron);margin-top:16px;line-height:1.6;}
+
+  /* ---------- STORY ---------- */
+  .story{background:var(--paper);}
+  .story-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center;}
+  @media(max-width:900px){.story-grid{grid-template-columns:1fr;}}
+  .story-photo{aspect-ratio:4/5;overflow:hidden;border-radius:1px;}
+  .story-photo img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);}
+  .story-photo:hover img{transform:scale(1.04);}
+  .story-copy p{font-size:17px;line-height:1.75;color:#3a3128;margin-top:18px;}
+  .stat-row{display:flex;gap:40px;margin-top:34px;flex-wrap:wrap;}
+  .stat b{display:block;font-family:'Big Shoulders Display';font-weight:900;font-size:38px;color:var(--ember);}
+  .stat span{font-family:'Barlow Semi Condensed';font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--iron);}
+
+  /* ---------- PULL QUOTE ---------- */
+  .pullquote{background:var(--oak);color:var(--cream);padding:110px 0;text-align:center;position:relative;overflow:hidden;}
+  .pullquote::before{content:"“";position:absolute;top:-40px;left:50%;transform:translateX(-50%);font-family:'Big Shoulders Display';font-size:340px;color:rgba(245,234,214,.06);line-height:1;pointer-events:none;}
+  .pullquote-text{position:relative;font-family:'Libre Franklin';font-style:italic;font-weight:400;font-size:clamp(26px,3.6vw,42px);max-width:820px;margin:0 auto;line-height:1.4;}
+  .pullquote-name{position:relative;margin-top:32px;font-family:'Barlow Semi Condensed';font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);font-weight:700;}
+
+  /* ---------- DISHES (mosaic) ---------- */
+  .dish-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:280px;gap:22px;}
+  @media(max-width:900px){.dish-grid{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:560px){.dish-grid{grid-template-columns:1fr;}}
+  .dish{position:relative;border-radius:1px;overflow:hidden;background:var(--ink);}
+  .dish.feature{grid-column:span 2;grid-row:span 2;}
+  @media(max-width:560px){.dish.feature{grid-column:span 1;grid-row:span 1;}}
+  .dish img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);}
+  .dish:hover img{transform:scale(1.07);}
+  .dish::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg, rgba(15,11,9,0.92) 0%, rgba(15,11,9,0.15) 55%, rgba(15,11,9,0) 75%);}
+  .dish-idx{position:absolute;top:16px;left:16px;z-index:2;font-family:'Barlow Semi Condensed';font-weight:700;font-size:11px;color:var(--gold);letter-spacing:.1em;border:1px solid rgba(214,161,63,.5);padding:4px 8px;background:rgba(15,11,9,.35);backdrop-filter:blur(2px);}
+  .dish-cap{position:absolute;left:0;right:0;bottom:0;padding:22px;z-index:2;color:var(--cream);}
+  .dish-cap .eyebrow{color:var(--ember-2);font-size:11px;}
+  .dish-cap h3{font-size:26px;margin-top:6px;}
+  .dish.feature .dish-cap h3{font-size:34px;}
+  .dish-cap p{font-family:'Libre Franklin';font-size:13.5px;color:#d9c9ab;margin-top:6px;line-height:1.4;max-width:340px;}
+
+  /* ---------- REVIEWS (scroll rail) ---------- */
+  .reviews{background:var(--ink);color:var(--cream);overflow:hidden;}
+  .reviews .sec-head p{color:#cbb999;}
+  .review-rail{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin:0 -24px;padding-left:24px;padding-right:24px;-webkit-overflow-scrolling:touch;}
+  .review-rail::-webkit-scrollbar{height:6px;}
+  .review-rail::-webkit-scrollbar-thumb{background:var(--gold);}
+  .review-card{scroll-snap-align:start;flex:0 0 330px;background:#241c17;border:1px solid rgba(214,161,63,0.18);padding:30px 26px;border-radius:2px;transition:border-color .3s;}
+  .review-card:hover{border-color:rgba(214,161,63,0.5);}
+  .review-stars{color:var(--gold);letter-spacing:3px;font-size:15px;margin-bottom:14px;}
+  .review-card p.quote{font-family:'Libre Franklin';font-style:italic;font-size:15.5px;line-height:1.6;color:#f0e5cf;}
+  .review-name{margin-top:18px;font-family:'Barlow Semi Condensed';text-transform:uppercase;font-weight:700;letter-spacing:.08em;font-size:12.5px;color:#a99676;}
+  .rail-hint{display:flex;align-items:center;gap:10px;margin-top:28px;font-family:'Barlow Semi Condensed';font-weight:600;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#8a7e5e;}
+  .rail-hint svg{width:15px;height:15px;}
+
+  /* ---------- MENU ---------- */
+  .menu-banner{width:100%;aspect-ratio:21/8;overflow:hidden;border-radius:1px;margin-bottom:60px;}
+  .menu-banner img{width:100%;height:100%;object-fit:cover;}
+  .menu-card{max-width:760px;margin:0 auto;background:var(--cream);border:1px solid rgba(28,22,19,.2);
+    outline:1px solid var(--gold);outline-offset:10px;padding:64px 56px;position:relative;}
+  .menu-card::before,.menu-card::after{content:"";position:absolute;width:22px;height:22px;pointer-events:none;}
+  .menu-card::before{top:-1px;left:-1px;border-top:1.5px solid var(--ember);border-left:1.5px solid var(--ember);}
+  .menu-card::after{bottom:-1px;right:-1px;border-bottom:1.5px solid var(--ember);border-right:1.5px solid var(--ember);}
+  .menu-card-title{text-align:center;margin-bottom:12px;}
+  .menu-card-title svg{width:26px;height:26px;color:var(--gold);margin:0 auto 10px;}
+  .menu-card-title h3{font-size:30px;margin-top:8px;}
+  .menu-cat{margin-bottom:38px;margin-top:34px;}
+  .menu-cat:last-of-type{margin-bottom:0;}
+  .menu-cat .eyebrow{margin-bottom:16px;display:block;text-align:center;}
+  .menu-item{padding:10px 0;}
+  .menu-item-top{display:flex;align-items:baseline;gap:10px;}
+  .menu-item-name{font-family:'Barlow Semi Condensed';font-weight:600;font-size:16.5px;}
+  .menu-item-leader{flex:1;min-width:16px;border-bottom:1px dotted rgba(28,22,19,.35);transform:translateY(-4px);}
+  .menu-item-desc{font-size:13px;color:var(--iron);margin-top:3px;}
+  .menu-item-price{font-family:'Barlow Semi Condensed';font-weight:700;font-size:16.5px;color:var(--ink);white-space:nowrap;}
+  .menu-note{margin-top:34px;font-size:14px;color:var(--iron);border-left:3px solid var(--ember);padding-left:14px;}
+  .menu-cta{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap;justify-content:center;}
+  @media(max-width:560px){.menu-card{padding:40px 22px;outline-offset:6px;}}
+
+  /* ---------- MENU: MEAT PRICE TABLE ---------- */
+  .menu-meat-head{display:grid;grid-template-columns:1fr repeat(3,60px);gap:6px;padding-bottom:10px;margin-bottom:4px;border-bottom:1px solid rgba(28,22,19,.28);}
+  .menu-meat-head span{font-family:'Barlow Semi Condensed';font-weight:700;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--iron);text-align:center;}
+  .menu-meat-head span:first-child{text-align:left;visibility:hidden;}
+  .menu-meat-row{display:grid;grid-template-columns:1fr repeat(3,60px);gap:6px;align-items:baseline;padding:11px 0;border-bottom:1px dotted rgba(28,22,19,.18);}
+  .menu-meat-row:last-child{border-bottom:none;}
+  .menu-meat-row .menu-item-name{font-size:16.5px;}
+  .menu-meat-row .price{font-family:'Barlow Semi Condensed';font-weight:700;font-size:14.5px;text-align:center;color:var(--ink);}
+  @media(max-width:560px){
+    .menu-meat-head,.menu-meat-row{grid-template-columns:1fr repeat(3,48px);}
+    .menu-meat-row .price{font-size:13px;}
+  }
+
+  /* ---------- CATERING ---------- */
+  .catering{background:linear-gradient(180deg, var(--paper-2), var(--paper));}
+  .cat-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+  @media(max-width:900px){.cat-grid{grid-template-columns:1fr;}}
+  .cat-photo{aspect-ratio:4/3;overflow:hidden;border-radius:1px;}
+  .cat-photo img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease);}
+  .cat-photo:hover img{transform:scale(1.04);}
+  .cat-example{margin-top:26px;background:var(--cream);border:1px solid var(--line);padding:22px 24px;border-radius:1px;}
+  .cat-example .eyebrow{margin-bottom:8px;display:block;}
+  .cat-example p{font-size:14.5px;color:var(--iron);line-height:1.6;}
+
+  /* ---------- LOCATION ---------- */
+  .location{background:var(--ink);color:var(--cream);}
+  .loc-grid{display:grid;grid-template-columns:1fr 1.2fr;border:1px solid rgba(214,161,63,0.2);}
+  @media(max-width:900px){.loc-grid{grid-template-columns:1fr;}}
+  .loc-info{padding:52px 46px;}
+  .loc-info h2{font-size:38px;margin-top:10px;}
+  .loc-row{margin-top:28px;}
+  .loc-row .lbl{font-family:'Barlow Semi Condensed';text-transform:uppercase;letter-spacing:.1em;font-size:11.5px;color:#a99676;font-weight:700;}
+  .loc-row .val{font-size:17px;margin-top:6px;color:#f0e5cf;}
+  .loc-row .val a{color:var(--ember-2);}
+  .hours-table div{display:flex;justify-content:space-between;padding:4px 0;font-size:14.5px;color:#e6d9c2;max-width:260px;gap:20px;}
+  .loc-map iframe{width:100%;height:100%;min-height:420px;border:0;filter:grayscale(.25) contrast(1.05);}
+  .loc-btns{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap;}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:#150f0c;color:#a99676;padding:80px 0 100px;}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px;padding-bottom:50px;border-bottom:1px solid rgba(214,161,63,.18);}
+  @media(max-width:760px){.foot-grid{grid-template-columns:1fr;gap:36px;}}
+  .foot-brand{color:var(--cream);font-family:'Big Shoulders Display';font-weight:800;font-size:26px;}
+  .foot-grid p{margin-top:14px;font-size:14px;line-height:1.7;color:#9a8c68;max-width:320px;}
+  .foot-col .eyebrow{color:var(--gold);display:block;margin-bottom:16px;}
+  .foot-col div{font-size:14px;color:#c9bb92;line-height:2.1;}
+  .foot-col a:hover{color:var(--cream);}
+  .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding-top:30px;font-family:'Barlow Semi Condensed';font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#7d7154;}
+
+  /* ---------- MOBILE STICKY BAR ---------- */
+  .stickybar{position:fixed;bottom:0;left:0;right:0;z-index:50;display:flex;background:var(--ink);border-top:1px solid rgba(214,161,63,0.25);box-shadow:0 -8px 24px rgba(0,0,0,.25);}
+  .stickybar a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;
+    padding:11px 4px 13px;color:var(--cream);font-family:'Barlow Semi Condensed';text-transform:uppercase;letter-spacing:.06em;font-weight:700;font-size:11.5px;
+    border-right:1px solid rgba(214,161,63,0.15);transition:background .2s;}
+  .stickybar a:last-child{border-right:none;background:var(--ember);}
+  .stickybar a:last-child:active{background:var(--ember-2);}
+  .stickybar svg{width:19px;height:19px;}
+  @media(min-width:920px){.stickybar{display:none;}body{padding-bottom:0;}}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease), transform .8s var(--ease);}
+  .reveal.in{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .reveal{opacity:1;transform:none;transition:none;}
+    .dish img,.story-photo img,.cat-photo img{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">IJ</span>
+      <span class="brand-name">Iron Jacket BBQ</span>
+    </a>
+    <nav class="navlinks">
+      <a href="#story">Pitmaster</a>
+      <a href="#dishes">Food</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#menu">Menu</a>
+      <a href="#catering">Catering</a>
+      <a href="#location">Location</a>
+    </nav>
+    <a class="nav-cta" href="tel:+13167799419">Call (316) 779-9419</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0672.jpeg" alt="Sliced smoked brisket with a dark peppery bark at Iron Jacket BBQ">
+  </div>
+  <div class="embers" id="embers"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Mulvane, Kansas · Oak-Fired Since Day One</div>
+    <h1 class="hero-title">Bringing Texas<br><em>Brisket</em> to Kansas</h1>
+    <p class="hero-sub">Low, slow, and cooked over an oak wood fire until the bark turns black and the inside stays impossibly tender. This is what BBQ near Wichita is supposed to taste like.</p>
+    <div class="hero-row">
+      <div class="btnrow">
+        <a class="btn btn-primary" href="#menu">View Menu</a>
+        <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=213+W+Main+St,+Mulvane,+KS+67110" target="_blank" rel="noopener">Get Directions</a>
+        <a class="btn btn-outline" href="tel:+13167799419">Call Now</a>
+      </div>
+      <div class="stamp hero-stamp">
+        <span class="stars">★★★★★</span>
+        <span class="num" data-count="5.0">0.0</span>
+        <span class="lbl"><span data-count="121">0</span> GOOGLE<br>REVIEWS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span><span>Oak-Smoked Brisket</span><span>Texas-Style Pit BBQ</span><span>Saturdays Only</span><span>Sells Out Weekly</span><span>Event Catering Available</span><span>121 Five-Star Reviews</span></span>
+    <span><span>Oak-Smoked Brisket</span><span>Texas-Style Pit BBQ</span><span>Saturdays Only</span><span>Sells Out Weekly</span><span>Event Catering Available</span><span>121 Five-Star Reviews</span></span>
+  </div>
+</div>
+
+<!-- ================= TRUST STRIP ================= -->
+<div class="trust">
+  <div class="wrap">
+    <span><b>★ 5.0 / 5.0</b> on Google &mdash; 121 Reviews</span>
+    <span>Oak-Smoked, Texas-Style Pit BBQ</span>
+    <span>Open <b>Saturdays</b>, 11am&ndash;7pm</span>
+    <span>Catering for Parties &amp; Events</span>
+  </div>
+</div>
+
+<!-- ================= STORY / PITMASTER ================= -->
+<section class="sec story" id="story">
+  <div class="wrap story-grid">
+    <div class="story-photo reveal">
+      <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/dsc09462.jpeg" alt="Iron Jacket BBQ pit and smoked meats in Mulvane, Kansas">
+    </div>
+    <div class="story-copy reveal">
+      <div class="kicker"><span class="kicker-num">01</span><span class="kicker-rule"></span><span class="eyebrow">Meet the Pitmaster</span></div>
+      <h2 style="font-size:clamp(30px,4.2vw,48px);">From a Sunday Pop-Up to a Saturday Sellout</h2>
+      <p>Iron Jacket BBQ started small: owner Eric selling brisket and pulled pork out of a borrowed kitchen space, one day a week, until the line got too long to ignore. Today it's a proper storefront on Main Street in Mulvane — same oak-fired pit, same habit of selling out most Saturdays.</p>
+      <p>Everything is still smoked low and slow the Texas way, judged one bark-crusted slice at a time.</p>
+      <div class="stat-row">
+        <div class="stat"><b>5.0</b><span>Google Rating</span></div>
+        <div class="stat"><b>121</b><span>Reviews</span></div>
+        <div class="stat"><b>1</b><span>Day a Week, Worth Planning Around</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PULL QUOTE ================= -->
+<section class="pullquote reveal">
+  <div class="wrap">
+    <p class="pullquote-text">"A picture is worth 1,000 words, but the brisket here will leave you speechless."</p>
+    <div class="pullquote-name">Brandon Westervelt — Google Review</div>
+  </div>
+</section>
+
+<!-- ================= POPULAR DISHES (mosaic) ================= -->
+<section class="sec" id="dishes">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker"><span class="kicker-num">02</span><span class="kicker-rule"></span><span class="eyebrow">What We Smoke</span></div>
+      <h2>The Menu's Heavy Hitters</h2>
+      <p>Everything goes into the pit before sunrise. What comes out is worth the drive from Wichita &mdash; and worth setting an alarm for on Saturday morning.</p>
+    </div>
+    <div class="dish-grid">
+      <div class="dish feature reveal">
+        <span class="dish-idx">01</span>
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0860.jpeg" alt="Texas-style smoked brisket sliced and ready to serve">
+        <div class="dish-cap"><span class="eyebrow">Signature</span><h3>Brisket</h3><p>The reason people drive an hour off I-35. Peppery bark, oak smoke ring, falls apart at the fork.</p></div>
+      </div>
+      <div class="dish reveal">
+        <span class="dish-idx">02</span>
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0861.jpeg" alt="Burnt ends cubed and glazed at Iron Jacket BBQ">
+        <div class="dish-cap"><span class="eyebrow">Fan Favorite</span><h3>Burnt Ends</h3></div>
+      </div>
+      <div class="dish reveal">
+        <span class="dish-idx">03</span>
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0862.jpeg" alt="Pulled pork sandwich at Iron Jacket BBQ">
+        <div class="dish-cap"><span class="eyebrow">Classic</span><h3>Pulled Pork</h3></div>
+      </div>
+      <div class="dish reveal">
+        <span class="dish-idx">04</span>
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/dsc09475-2.jpeg" alt="Smoked macaroni and cheese side dish">
+        <div class="dish-cap"><span class="eyebrow">Side</span><h3>Mac &amp; Cheese</h3></div>
+      </div>
+      <div class="dish reveal">
+        <span class="dish-idx">05</span>
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0864.jpeg" alt="Baked beans loaded with smoked meat">
+        <div class="dish-cap"><span class="eyebrow">Side</span><h3>Baked Beans</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS (scroll rail) ================= -->
+<section class="sec reviews" id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker on-dark"><span class="kicker-num">03</span><span class="kicker-rule"></span><span class="eyebrow">Word Around Town</span></div>
+      <h2>121 Reviews. Every One a Five Star.</h2>
+      <p>We didn't write these. Our customers did — after driving out to a small-town Kansas garage-turned-smokehouse and leaving full.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="review-rail reveal">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">"We got the brisket, burnt ends, and pulled pork and they were all great. The mac and cheese is also an excellent side."</p>
+        <div class="review-name">Joshua Myers — Google</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">Ordered 15 lb of brisket plus a large pan of baked beans and mac and cheese for a birthday party, arranged directly with the owner ahead of time.</p>
+        <div class="review-name">Matt Brown — Google</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">"Brisket is the ultimate test of a barbecue chef, and the brisket here is as fine as anywhere you could find in a place like Austin, Texas."</p>
+        <div class="review-name">James Ludwig — Google</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">The burnt ends were out of this world — savory, tender, and packed with flavor. The sides were the perfect companion.</p>
+        <div class="review-name">Cindy La Rue — Local Review</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="quote">Great service, spotless, and reasonably priced — right across from Cobb Park, a nice spot for a stroll after eating great BBQ.</p>
+        <div class="review-name">Local Review</div>
+      </div>
+    </div>
+    <div class="rail-hint reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+      Swipe for more
+    </div>
+  </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="kicker"><span class="kicker-num">04</span><span class="kicker-rule"></span><span class="eyebrow">Saturdays Only</span></div>
+      <h2>The Menu</h2>
+      <p>Meats are sold by the pound or stacked into a sandwich. The board changes slightly week to week based on what's come off the smoker — call ahead if you're set on something specific.</p>
+    </div>
+
+    <div class="menu-banner reveal">
+      <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0866.jpeg" alt="Iron Jacket BBQ tray of smoked meats and sides">
+    </div>
+
+    <div class="menu-card reveal">
+      <div class="menu-card-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 13h16M6 13V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v7M6 13l-1 8h14l-1-8"/></svg>
+        <span class="eyebrow">Iron Jacket</span>
+        <h3>The Board</h3>
+      </div>
+
+      <div class="menu-cat">
+        <span class="eyebrow">Meat</span>
+        <div class="menu-meat-head"><span>Item</span><span>¼ lb</span><span>½ lb</span><span>1 lb</span></div>
+        <div class="menu-meat-row"><span class="menu-item-name">Brisket: Sliced or Chopped</span><span class="price">8.00</span><span class="price">16.00</span><span class="price">32.00</span></div>
+        <div class="menu-meat-row"><span class="menu-item-name">Brisket Burnt Ends</span><span class="price">8.75</span><span class="price">17.50</span><span class="price">35.00</span></div>
+        <div class="menu-meat-row"><span class="menu-item-name">Pulled Pork</span><span class="price">6.00</span><span class="price">12.00</span><span class="price">24.00</span></div>
+        <div class="menu-meat-row"><span class="menu-item-name">Smoked Chicken Thigh</span><span class="price">6.50</span><span class="price">13.00</span><span class="price">26.00</span></div>
+      </div>
+
+      <div class="menu-cat">
+        <span class="eyebrow">Sandwiches</span>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Pulled Pork</span><span class="menu-item-leader"></span><span class="menu-item-price">8.00</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Chopped Brisket</span><span class="menu-item-leader"></span><span class="menu-item-price">9.50</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Black Hawk Chicken</span><span class="menu-item-leader"></span><span class="menu-item-price">8.00</span></div><div class="menu-item-desc">Smoked chicken thigh with a choice of Original, Spicy or Berry sauce!</div></div>
+      </div>
+
+      <div class="menu-cat">
+        <span class="eyebrow">Sides — 8 oz</span>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Potato Salad</span><span class="menu-item-leader"></span><span class="menu-item-price">3.50</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Farmhouse Coleslaw</span><span class="menu-item-leader"></span><span class="menu-item-price">3.50</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Smoked Mac N Cheese</span><span class="menu-item-leader"></span><span class="menu-item-price">4.00</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">BBQ Baked Beans</span><span class="menu-item-leader"></span><span class="menu-item-price">3.50</span></div></div>
+        <div class="menu-item"><div class="menu-item-top"><span class="menu-item-name">Chips</span><span class="menu-item-leader"></span><span class="menu-item-price">1.00</span></div></div>
+      </div>
+
+      <div class="menu-note">Prices shown are per the current board. Availability changes week to week based on what's come off the smoker — call (316) 779-9419 to confirm today's menu or to reserve ahead of a Saturday visit.</div>
+      <div class="menu-cta">
+        <a class="btn btn-primary" href="tel:+13167799419">Call (316) 779-9419</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CATERING ================= -->
+<section class="sec catering" id="catering">
+  <div class="wrap">
+    <div class="cat-grid">
+      <div class="reveal">
+        <div class="kicker"><span class="kicker-num">05</span><span class="kicker-rule"></span><span class="eyebrow">Feeding a Crowd</span></div>
+        <h2 style="font-size:clamp(32px,4.5vw,52px);">BBQ Catering for Wichita &amp; Mulvane</h2>
+        <p style="margin-top:18px;font-size:16.5px;color:var(--iron);line-height:1.6;">Birthday parties, office lunches, family reunions, wedding rehearsals — if you tell us the headcount, we'll tell you how many pounds to order. Everything is smoked to order over oak, same as what goes out the front door on Saturdays.</p>
+        <div class="cat-example">
+          <span class="eyebrow">Real Order, Real Customer</span>
+          <p>For one recent birthday party, a customer ordered 15&nbsp;lb of brisket with a large pan each of baked beans and mac &amp; cheese — arranged directly with the owner ahead of time.</p>
+        </div>
+        <div class="menu-cta" style="justify-content:flex-start;">
+          <a class="btn btn-primary" href="tel:+13167799419">Call to Book Catering</a>
+        </div>
+      </div>
+      <div class="cat-photo reveal">
+        <img src="https://ironjacketbbq.com/wp-content/uploads/2024/12/img_0677.jpeg" alt="Catering tray of Iron Jacket BBQ brisket and sides">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section class="location" id="location">
+  <div class="wrap" style="padding-top:110px;padding-bottom:110px;">
+    <div class="kicker on-dark reveal" style="margin-bottom:34px;"><span class="kicker-num">06</span><span class="kicker-rule"></span><span class="eyebrow">Find Us</span></div>
+    <div class="loc-grid reveal">
+      <div class="loc-info">
+        <h2>Mulvane, Kansas</h2>
+
+        <div class="loc-row">
+          <div class="lbl">Address</div>
+          <div class="val"><a href="https://www.google.com/maps/dir/?api=1&destination=213+W+Main+St,+Mulvane,+KS+67110" target="_blank" rel="noopener">213 W Main St, Mulvane, KS 67110</a></div>
+        </div>
+        <div class="loc-row">
+          <div class="lbl">Phone</div>
+          <div class="val"><a href="tel:+13167799419">(316) 779-9419</a></div>
+        </div>
+        <div class="loc-row">
+          <div class="lbl">Hours</div>
+          <div class="hours-table">
+            <div><span>Saturday</span><span>11:00am – 7:00pm</span></div>
+            <div><span>Sun – Fri</span><span>Closed</span></div>
+          </div>
+        </div>
+        <div class="loc-row">
+          <div class="lbl">Also Find Us At</div>
+          <div class="val" style="font-size:14.5px;">A monthly Friday pop-up at First Man Brewery — check our Facebook for dates.</div>
+        </div>
+        <div class="loc-btns">
+          <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=213+W+Main+St,+Mulvane,+KS+67110" target="_blank" rel="noopener">Get Directions</a>
+          <a class="btn btn-outline" href="tel:+13167799419">Call Now</a>
+        </div>
+      </div>
+      <div class="loc-map">
+        <iframe src="https://www.google.com/maps?q=213+W+Main+St,+Mulvane,+KS+67110&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to Iron Jacket BBQ"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">Iron Jacket BBQ</div>
+        <p>Texas-style, oak-fired barbecue out of a Main Street storefront in Mulvane, Kansas — open Saturdays, gone when it's gone.</p>
+      </div>
+      <div class="foot-col">
+        <span class="eyebrow">Explore</span>
+        <div>
+          <a href="#story">Pitmaster</a><br>
+          <a href="#dishes">Food</a><br>
+          <a href="#menu">Menu</a><br>
+          <a href="#catering">Catering</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <span class="eyebrow">Visit</span>
+        <div>
+          213 W Main St<br>Mulvane, KS 67110<br>
+          <a href="tel:+13167799419">(316) 779-9419</a><br>
+          Saturdays · 11am&ndash;7pm
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Iron Jacket BBQ. Bringing Texas brisket to Kansas.</span>
+      <span>213 W Main St, Mulvane, KS</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= MOBILE STICKY BAR ================= -->
+<div class="stickybar">
+  <a href="#menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+    Menu
+  </a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=213+W+Main+St,+Mulvane,+KS+67110" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    Directions
+  </a>
+  <a href="tel:+13167799419">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8.1 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>
+    Call
+  </a>
+</div>
+
+<script>
+  // scroll reveal
+  const els = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.12});
+  els.forEach(el=>io.observe(el));
+
+  // header shrink/solidify on scroll
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    if (window.scrollY > 40) header.classList.add('scrolled');
+    else header.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // floating ember particles in the hero
+  const emberBox = document.getElementById('embers');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (emberBox && !reduceMotion) {
+    for (let i = 0; i < 14; i++) {
+      const p = document.createElement('div');
+      p.className = 'ember-particle';
+      p.style.left = (Math.random()*100) + '%';
+      p.style.setProperty('--drift', (Math.random()*60-30) + 'px');
+      p.style.animationDelay = (Math.random()*9) + 's';
+      p.style.animationDuration = (7 + Math.random()*5) + 's';
+      p.style.width = p.style.height = (3 + Math.random()*3) + 'px';
+      emberBox.appendChild(p);
+    }
+  }
+
+  // count-up stat animation for the hero stamp
+  const counters = document.querySelectorAll('[data-count]');
+  const countIO = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting) return;
+      countIO.unobserve(entry.target);
+      const el = entry.target;
+      const target = parseFloat(el.dataset.count);
+      const isDecimal = el.dataset.count.includes('.');
+      const dur = 1400;
+      const start = performance.now();
+      function tick(now){
+        const p = Math.min(1, (now-start)/dur);
+        const eased = 1 - Math.pow(1-p, 3);
+        const val = target*eased;
+        el.textContent = isDecimal ? val.toFixed(1) : Math.round(val);
+        if(p<1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
+  }, {threshold:0.6});
+  counters.forEach(c=>countIO.observe(c));
+</script>
+
+</body>
+</html>
